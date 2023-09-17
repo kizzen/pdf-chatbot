@@ -1,0 +1,6 @@
+{
+    "UPLOAD_DIR": "uploads",
+    "ALLOWED_EXT": "pdf",
+    "DOC_SET": "doc_set",
+    "LOCAL_DIR": "vect_embedding"
+}

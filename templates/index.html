@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Language Document Query</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="static/main.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Natural Language Document Query</h1>
+
+    <!-- PDF upload section -->
+    <div class="card mb-3">
+        <div class="card-header">Upload a PDF</div>
+        <div class="card-body">
+            <input type="file" id="pdf-upload" accept=".pdf" style="display: none;">
+            <div class="mb-2 d-flex align-items-center">
+                <label for="pdf-upload" class="btn btn-outline-secondary mr-2">Choose File</label>
+                <span id="selected-filename">No file selected.</span>
+            </div>
+            <div class="mt-2">
+                <button onclick="uploadPDF()" class="btn btn-primary">Upload PDF</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Document Query interface -->
+    <div class="card">
+        <div class="card-header">Query Interface</div>
+        <div class="card-body" id="chat-box" style="height: 300px; overflow-y: scroll;">
+            <!-- Chat messages will appear here -->
+        </div>
+        <div class="card-footer">
+            <textarea id="user-input" placeholder="Type your query here..." class="form-control mb-2"></textarea>
+            <button onclick="sendMessage()" class="btn btn-success">Send</button>
+        </div>
+    </div>
+</div>
+
+<!-- External Scripts -->
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Custom JS -->
+<script src="static/app.js"></script>
+</body>
+</html>
