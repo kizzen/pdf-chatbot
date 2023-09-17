@@ -1,11 +1,10 @@
 # PDF Chatbot
 
-A simple chatbot GUI that can answer questions about the content of uploaded PDF documents.
+A simple chatbot GUI that can answer questions about the content of uploaded PDF documents. To see the app in action, click on the image below.
 
 [![Watch the video](https://img.youtube.com/vi/EGfnQUHEpYs/maxresdefault.jpg)](https://www.youtube.com/watch?v=EGfnQUHEpYs)
 
-
-For more info, check out this blob post. To see the app in action, view this video.
+For further reading, check out [How to Create a PDF Chatbot with Langchain and Flask](https://medium.com/@ezzine.khalil/how-to-create-a-pdf-chatbot-with-langchain-and-flask-818646a04ba8). 
 
 ## Features
 
@@ -48,14 +47,15 @@ Before you start, ensure you have the following software installed:
 ### Contributing
 All contributions are welcome! 
 
-### License
+## License
 
-The "you can do whatever you like," MIT License. 
+[MIT License](https://github.com/kizzen/pdf-chatbot/blob/main/LICENSE)
 
-### Acknowledgments
+## Acknowledgments
 
 Inspired by https://abvijaykumar.medium.com/prompt-engineering-retrieval-augmented-generation-rag-cd63cdc6b00.
 
-### Contact
-For any queries or feedback, please reach out to me at ezzine.khalil@gmail.com or via LinkedIn: https://www.linkedin.com/in/kezzine. 
+## Contact
+For any queries or feedback, please reach out to me at ezzine.khalil@gmail.com or via my [LinkedIn Profile](https://www.linkedin.com/in/kezzine)
+. 
 
