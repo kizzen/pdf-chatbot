@@ -22,12 +22,11 @@ Before you start, you must have:
 - git
 - pip 
 - OpenAI API key
-- a web browser 
 
 ### Installation
 
 1. Clone the repository:
-    - `https://github.com/kizzen/pdf-chatbot`
+    - `got clone https://github.com/kizzen/pdf-chatbot`
 2. Navigate to the project directory:
     - `cd pdf-chatbot`
 3. Create and activate a new virtual environment. Example using Conda:
@@ -39,7 +38,7 @@ Before you start, you must have:
     - `python app.py`
 
 ### Usage
-1. Open a web browser and navigate to http://localhost:5000.
+1. Open a web browser and navigate to http://localhost:8080/.
 2. Upload a PDF file using the 'Upload' button.
 3. Start asking questions related to the uploaded PDF in the chat interface.
 
