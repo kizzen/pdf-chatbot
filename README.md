@@ -19,17 +19,16 @@ For further reading, check out this blog post: [How to Create a PDF Chatbot with
 Before you start, you must have:
 
 - python
-- git
 - pip 
 - OpenAI API key
 
 ### Installation
 
 1. Clone the repository:
-    - `got clone https://github.com/kizzen/pdf-chatbot`
+    - `git clone https://github.com/kizzen/pdf-chatbot.git`
 2. Navigate to the project directory:
     - `cd pdf-chatbot`
-3. Create and activate a new virtual environment. Example using Conda:
+3. Create and activate a new virtual environment. Example using conda:
     - `conda create -n chat_pdf_env`
     - `conda activate chat_pdf_env`
 4. Install the necessary packages from requirements.txt into the newly create environment:
