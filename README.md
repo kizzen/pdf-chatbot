@@ -4,7 +4,7 @@ A simple chatbot GUI that can answer questions about the content of uploaded PDF
 
 [![Watch the video](https://img.youtube.com/vi/EGfnQUHEpYs/maxresdefault.jpg)](https://www.youtube.com/watch?v=EGfnQUHEpYs)
 
-For further reading, check out [How to Create a PDF Chatbot with Langchain and Flask](https://medium.com/@ezzine.khalil/how-to-create-a-pdf-chatbot-with-langchain-and-flask-818646a04ba8). 
+For further reading, check out this blog post: [How to Create a PDF Chatbot with Langchain and Flask](https://medium.com/@ezzine.khalil/how-to-create-a-pdf-chatbot-with-langchain-and-flask-818646a04ba8). 
 
 ## Features
 
@@ -16,28 +16,27 @@ For further reading, check out [How to Create a PDF Chatbot with Langchain and F
 
 ### Prerequisites
 
-Before you start, ensure you have the following software installed:
+Before you start, you must have:
 
 - python
 - git
-- pip (Python package manager)
+- pip 
 - OpenAI API key
 - a web browser 
 
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/pdf-chatbot.git```
+    - `https://github.com/kizzen/pdf-chatbot`
 2. Navigate to the project directory:
-    cd pdf-chatbot
+    - `cd pdf-chatbot`
 3. Create and activate a new virtual environment. Example using Conda:
-    - conda create -n chat_pdf_env
-    - conda activate chat_pdf_env
+    - `conda create -n chat_pdf_env`
+    - `conda activate chat_pdf_env`
 4. Install the necessary packages from requirements.txt into the newly create environment:
-    - pip install -r requirements.txt
+    - `pip install -r requirements.txt`
 5. Launch the Flask app from the Terminal:
-    - python app.py
+    - `python app.py`
 
 ### Usage
 1. Open a web browser and navigate to http://localhost:5000.
