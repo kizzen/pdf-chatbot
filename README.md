@@ -2,7 +2,8 @@
 
 A simple chatbot GUI that can answer questions about the content of uploaded PDF documents.
 
-![Screenshot of PDF Chatbot in action](https://example.com/path-to-your-screenshot-image.png)
+[![Watch the video](https://img.youtube.com/vi/EGfnQUHEpYs/maxresdefault.jpg)](https://www.youtube.com/watch?v=EGfnQUHEpYs)
+
 
 For more info, check out this blob post. To see the app in action, view this video.
 
@@ -21,6 +22,7 @@ Before you start, ensure you have the following software installed:
 - python
 - git
 - pip (Python package manager)
+- OpenAI API key
 - a web browser 
 
 ### Installation
