@@ -53,6 +53,5 @@ All contributions are welcome!
 Inspired by https://abvijaykumar.medium.com/prompt-engineering-retrieval-augmented-generation-rag-cd63cdc6b00.
 
 ## Contact
-For any queries or feedback, reach out to me at ezzine.khalil@gmail.com or via my [LinkedIn Profile](https://www.linkedin.com/in/kezzine)
-. 
+For any queries or feedback, reach out to me at ezzine.khalil@gmail.com or via [LinkedIn](https://www.linkedin.com/in/kezzine). 
 
